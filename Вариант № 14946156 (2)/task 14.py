@@ -1,0 +1,5 @@
+a = (8**2020 + 4**2017 + 26 - 1)
+print(a)
+b = bin(a)
+c = b.count("1")
+print(c)
